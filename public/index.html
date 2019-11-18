@@ -16,18 +16,18 @@
     <div class="form-container">
       <div class="form-box">
         <h2>Contact Us</h2>
-        <form action="https://free-climb.herokuapp.com/submit" method="post">
+        <form action="/submit" method="POST">
           <div class="input-container">
             <label>Full Name</label>
-            <input type="text">
+            <input type="text" name="name">
           </div>
           <div class="input-container">
             <label>Phone Number</label>
-            <input type="number">
+            <input type="number" name="number">
           </div>
           <div class="input-container">
             <label>Message</label>
-            <textarea></textarea>
+            <textarea name="message"></textarea>
           </div>
           <input class="button" type="submit" value="Submit">
         </form>
